@@ -1,0 +1,60 @@
+.page {
+  width: 90%;
+  min-height: 100vh;
+  // background-color: #fff;
+  margin: 0 auto;
+}
+
+.contentDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  gap: 20px;
+  padding: 20px 0;
+
+  @media screen and (max-width: 680px) {
+    height: 40vh;
+    gap: 10px;
+  }
+}
+
+.card {
+  width: 100%;
+  width: 200px;
+  height: 100%;
+  position: relative;
+  transition: all 0.7s ease-in;
+  flex: 0.08;
+  cursor: pointer;
+}
+
+.activeCard {
+  width: 60vw;
+  height: 100%;
+  position: relative;
+  flex: 0.9;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 60px;
+  object-fit: cover;
+}
+
+.title {
+  color: aliceblue;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  transition: all 0.7s ease-in;
+
+  @media screen and (max-width: 680px) {
+    font-size: 18px;
+    bottom: 20px;
+    left: 20px;
+  }
+}

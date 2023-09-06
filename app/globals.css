@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+h3 {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px 0 50px 0;
+}
